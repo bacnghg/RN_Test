@@ -1,9 +1,9 @@
 import React from 'react';
 import {Text, View, Button, Image} from 'react-native';
 
-export default class  FirstTab extends React.Component {
+export default class  ThirdTab extends React.Component {
   static navigationOptions = {
-    tabBarLabel:'FirstTab',
+    tabBarLabel:'ThirdTab',
     tabBarIcon: ({tintColor}) => (
       <Image
       source={require('../images/home.png')}
@@ -20,7 +20,7 @@ export default class  FirstTab extends React.Component {
         }
       }>
         <Text style = {{fontSize: 30}}>
-          This is tab 1
+          This is tab 3
         </Text>
     </View>
   }

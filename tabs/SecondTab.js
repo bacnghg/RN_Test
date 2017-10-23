@@ -3,7 +3,7 @@ import { Text, View, Button, Image } from 'react-native';
 
 export default class SecondTab extends React.Component {
   static navigationOptions = {
-    tabBarLabel: 'Shopping',
+    tabBarLabel: 'SecondTab',
     tabBarIcon: ({tintColor}) => (
       <Image
       source={require('../images/shopping.png')}
